@@ -6,7 +6,6 @@ class SpotlightWallpaper < Formula
   license "GPL-3.0-or-later"
 
   depends_on macos: :sonoma
-  depends_on xcode: ["15.0", :build]
 
   def install
     system "swift", "build", "--disable-sandbox", "-c", "release"
