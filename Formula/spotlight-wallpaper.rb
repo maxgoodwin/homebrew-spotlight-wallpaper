@@ -1,8 +1,8 @@
 class SpotlightWallpaper < Formula
   desc "Menu bar app: real Windows Spotlight daily wallpapers on macOS, with photo info"
   homepage "https://github.com/maxgoodwin/spotlight-wallpaper"
-  url "https://github.com/maxgoodwin/spotlight-wallpaper/archive/refs/tags/v0.1.5.tar.gz"
-  sha256 "b1079de69cdd43e19d92284510eb28cdf8063651df783e3a33fb414f586a10cd"
+  url "https://github.com/maxgoodwin/spotlight-wallpaper/archive/refs/tags/v0.1.6.tar.gz"
+  sha256 "4c7b5842f1e70bb14fdec5f7093ac043233af75f8580af1766c004a422cc9ba7"
   license "GPL-3.0-or-later"
 
   depends_on macos: :sonoma
