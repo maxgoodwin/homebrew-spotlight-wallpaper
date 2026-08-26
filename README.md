@@ -7,7 +7,9 @@ Spotlight daily images, with a photo-info popover.
 ## Install
 
 ```sh
-brew tap maxgoodwin/spotlight-wallpaper
-brew install spotlight-wallpaper
-brew services start spotlight-wallpaper
+brew install --cask maxgoodwin/spotlight-wallpaper/spotlight-wallpaper
 ```
+
+This installs **Spotlight Wallpaper.app** to `/Applications` — it's Spotlight-searchable, not
+just a CLI binary. Launch it once, then turn on **Launch at login** in its Preferences… to have
+it start automatically from then on.
